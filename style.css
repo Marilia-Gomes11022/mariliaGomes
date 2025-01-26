@@ -1,0 +1,61 @@
+body{
+    font-family: Lato
+}
+.cabeca{
+    display: flex;
+    padding: 16px;
+    width: 369px;
+    height: 344px;
+    width: max-content;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+.cabeca .perfil{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.cabeca .perfil .descricao{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 8px;
+}
+.cabeca .dados{
+    display: flex;
+    height: 320px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+    
+}
+.cabeca img{
+    width: 100%;
+    width: 369px;
+    height: 264px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;;
+}
+.corpo .titulo{
+    border-bottom: 1px solid #DEE2E6;
+    border-width: 70%;
+    padding: 10px;
+}
+.corpo .projetos{
+    display: flex;
+    width: 270px;
+    min-height: 284px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.corpo 
+
+/*footer{}/*
