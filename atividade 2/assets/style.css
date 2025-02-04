@@ -1,9 +1,25 @@
+:root{
+    
+}
+
+
 body{
     font-family: Inter;
 }
+
 header{
     background-color: #C11616;
 }
 header img{
     color: white;
 }
+header div small{
+    color: white;
+    border-left: 1px solid 
+}
+header div a{
+    text-decoration: none;
+    color: white;
+}
+
+.corpo{}
