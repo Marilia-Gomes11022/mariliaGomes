@@ -90,54 +90,69 @@ body{
     flex-shrink: 0;
     align-self: flex-start;
 }
+
 .container .main{
     width: 80%;
+}
+.container .main-top{
     display: flex;
     flex-direction: column;
 }
-.container .main strong{
+.container .main .main-top span{
+    color: var(--azul-texto1);
+    font-weight: 500;
+    font-size: 14px;
+}
+.container .main  .main-top strong{
     border-bottom: 0.5px solid var(--amarelo);
     border-width: 3px;
     margin-bottom: 1em;
     color: var(--azul-texto1);
     font-weight: 700;
+    font-size: 24px;
 }
-
+.container .main .main-right{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3em;
+}
+.container .main .main-right span{
+    width: 70%;
+}
 /*humildade do prof*/
-/* modifica o display para display block */
-.d-block{display: block;}
-
-/* -----
+/*  -----------
 Parte do código responsável por customizar a visualização do card
 configura o card para visualizacao da imagem 
------------ */
+    ----------- */
 
-.card{
+.propaganda-praia{
   border-radius: .25em;
   display: block;
-  color: blue;
+  color: var(--azul-geral);
   border: 1px solid;
   text-decoration: none;
   width: 300px;
   height: 300px;
 }
 
-.card figure{
+.propaganda-praia figure{
   margin: 0;
 }
-.card figure img{
+.propaganda-praia figure img{
   max-width: 100%;
   transform: scale(120%);  
   margin-bottom: 0.75em;
 }
-.card figure figcaption{
+.propaganda-praia figure figcaption{
   padding: 1em;
 }
 
-.card figure figcaption strong{
+.propaganda-praia figure figcaption strong{
   font-size: 1.5em;
   margin-bottom: .25em;
 }
+/* modifica o display para display block */
+.descricao{display: block;}
 
 
 @media (max-width: ){
