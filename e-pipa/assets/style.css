@@ -6,6 +6,7 @@
     --white: #F9FAFC;
     --soft-white: #EFF2F7;
     --grey: #d3d3d3;
+    --azul-texto1: #2648A1;
 }
 body{
     margin: 0;
@@ -13,22 +14,33 @@ body{
 .header{
     font-family: Montserrat;
     background-color: var(--azul-header);
+    display: flex;
+    flex-direction: column;
 }
 .header .top{
+    width: 95%;
+    align-self: center;
     color: var(--soft-white);
     font-weight: 300;
     display: flex;
     justify-content: flex-end;
     gap: 1em;
     padding: 12px 0px; 
-    border-bottom: 0.2px solid var(--grey)
+    border-bottom: 0.2px solid var(--grey);
 }
 .header .mid{
     color: var(--soft-white);
     display: flex;
+    width: 95%;
+    align-self: center;
     padding-top: 1em;
-    justify-content: space-around;
+    gap: 1em;
+    justify-content: space-between;
 
+}
+.header .mid .links{
+    display: flex;
+    gap: 1em;  
 }
 .header .mid .links a{
     text-decoration: none;
@@ -36,11 +48,98 @@ body{
 }
 .header .mid img{
     display: flex;
-    justify-content: start;
+    margin-left: 0;
 }
 .header .mid strong{
     border-bottom: 1px solid var(--amarelo);
     border-width: 3px;
     padding-bottom: 1em;
     margin-bottom: 1em;
+}
+
+.container{
+    font-family: Lato;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    width: 50%;
+}
+.container h1{
+    font-family: Montserrat;
+    display: flex;
+    justify-content: flex-start;
+}
+.container .frase{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.container .frase em{
+    color: var(--azul-texto1);
+    display: flex;
+    justify-content: flex-end;
+}
+.container .frase span{
+    display: flex;
+    justify-content: flex-end;
+}
+.container .logo-grande{
+    width: 90%;
+    height: 90%;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+.container .main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.container .main strong{
+    border-bottom: 0.5px solid var(--amarelo);
+    border-width: 3px;
+    margin-bottom: 1em;
+    color: var(--azul-texto1);
+    font-weight: 700;
+}
+
+/*humildade do prof*/
+/* modifica o display para display block */
+.d-block{display: block;}
+
+/* -----
+Parte do código responsável por customizar a visualização do card
+configura o card para visualizacao da imagem 
+----------- */
+
+.card{
+  border-radius: .25em;
+  display: block;
+  color: blue;
+  border: 1px solid;
+  text-decoration: none;
+  width: 300px;
+  height: 300px;
+}
+
+.card figure{
+  margin: 0;
+}
+.card figure img{
+  max-width: 100%;
+  transform: scale(120%);  
+  margin-bottom: 0.75em;
+}
+.card figure figcaption{
+  padding: 1em;
+}
+
+.card figure figcaption strong{
+  font-size: 1.5em;
+  margin-bottom: .25em;
+}
+
+
+@media (max-width: ){
+
 }
