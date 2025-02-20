@@ -12,8 +12,13 @@
     border-bottom: 1px solid var(--grey-border);
     justify-content: space-between;
 }
+.header figure{
+    height: 36px;
+}
 .header .sub-header{
     font-family: Roboto;
+    display: flex;
+    gap: 1em
 }
 .header .sub-header button{
     background-color: var(--orange-button);
@@ -27,4 +32,26 @@
 }
 .header .sub-header button img{
     width: 16px;
+}
+
+.header .sub-header .perfil{
+    display: flex;
+    font-family: Roboto;
+    justify-content: space-between;
+    gap: 0.5em;
+    font-size: 16px;
+    font-weight: 700;
+}
+.header .sub-header .perfil small{
+    color: var(--azul-dark);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header .sub-header .perfil figure{
+    margin: 0px;
+    height: 12px;
 }
