@@ -12,6 +12,7 @@
     display: flex;
     border-bottom: 1px solid var(--grey-border);
     justify-content: space-between;
+    align-items: center;
 }
 .header figure{
     height: 36px;
