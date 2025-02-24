@@ -55,3 +55,11 @@
     margin: 0px;
     height: 12px;
 }
+
+/* --- SECTION LEFT --- */
+
+.section-left{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 120%;
+}
