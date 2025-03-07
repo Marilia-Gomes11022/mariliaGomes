@@ -6,6 +6,7 @@
     --azul-medium: #0D5EAF;
     --azul-dark: #0F3679;
     --azul-light: #2E96C9;
+    --azul-button-editar: #0F6ECD;
     --grey-border: #E5E7EB;
     --grey-main-up: #797D84;
     --orange-button: #FF6600;
@@ -175,4 +176,12 @@
 .main .up-up .archivo{
     font-family: Archivo;
     font-size: 24px;
+}
+.main .up-up .right a{
+    font-family: Inter;
+    text-decoration: none;
+    color: var(--azul-button-editar);
+}
+.main .up-up .right img{
+    padding-right: 8px;
 }
