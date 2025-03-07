@@ -7,12 +7,16 @@
     --azul-dark: #0F3679;
     --azul-light: #2E96C9;
     --azul-button-editar: #0F6ECD;
+    --azul-backgr-button-editar: #F2F9FD;
     --grey-border: #E5E7EB;
     --grey-main-up: #797D84;
     --orange-button: #FF6600;
     --orange-hover: #FD8535;
     --black-strong: #1A1C20;
     --white: #FEFEFE;
+    --border-radius-6: 6px;
+    --spacing-6: 6px;
+    --spacing-12: 12px;
     --spacing-16: 16px;
 }
 
@@ -141,7 +145,11 @@
 .main{
     margin: 1em;
 }
-.main .up-up{}
+.main .up-up{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
 .main .up-up .left .left-top{
     display: flex;
     justify-content: space-between;
@@ -165,7 +173,7 @@
     line-height: 150%;
 }
 .main .up-up .left .left-bottom img{
-    padding-right: 6px;
+    padding-right: var(--spacing-6);
     width: 18px;
     height: 18px;
 }
@@ -176,6 +184,14 @@
 .main .up-up .archivo{
     font-family: Archivo;
     font-size: 24px;
+}
+.main .up-up .right{
+    padding: var(--spacing-12);
+    background-color: var(--azul-backgr-button-editar);
+    display: flex;
+    justify-content: center;
+    border-radius: var(--border-radius-6);
+    height: 20px;
 }
 .main .up-up .right a{
     font-family: Inter;
