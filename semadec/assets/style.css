@@ -4,6 +4,7 @@
     --azul-light: #2E96C9;
     --grey-border: #E5E7EB;
     --orange-button: #FF6600;
+    --orange-hover: #FD8535;
     --white: #FEFEFE;
     --spacing-16: 16px;
 }
@@ -29,11 +30,17 @@
     color: var(--white);
     border-style: none;
     padding: 4px 16px;
+    transition: all 0.5s;
     justify-content: center;
     font-size: 16px;
 }
+.header .sub-header button:hover{
+    background-color: var(--orange-hover);
+}
 .header .sub-header button img{
     width: 16px;
+    position: relative;
+    top: 2px;
 }
 
 .header .sub-header .perfil{
@@ -95,11 +102,13 @@
     gap: 8px;
 }
 .section-left .up ul .dashboard img{
+    stroke: blue;
+    padding: 10px;
+}
+.section-left .up ul .dashboard img:active{
     background-color: var(--azul-medium);
     padding: 10px;
-    
 }
-
 .section-left .bottom ul{
     list-style: none;
     color: var(--azul-medium)
