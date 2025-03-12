@@ -77,8 +77,8 @@
     height: 12px;
 }
 
-/* -- CONTAINER-MID -- */
-.container-mid{
+/* -- CONTAINER -- */
+.container{
     display: flex;
 }
 
@@ -144,6 +144,7 @@
 
 .main{
     margin: 1em;
+    width: 875px;
 }
 .main .up-up{
     display: flex;
@@ -200,4 +201,14 @@
 }
 .main .up-up .right img{
     padding-right: 8px;
+}
+.main .colored-cards{
+    display: flex;
+}
+.main .colored-cards .card{}
+.main .colored-cards .card small{
+    font-family: Inter;
+}
+.main .colored-cards .card h2{
+    font-family: Archivo;
 }
